@@ -1,0 +1,95 @@
+[gd_scene format=3 uid="uid://lon4klum8whg"]
+
+[ext_resource type="Texture2D" uid="uid://stsqqtstyhxj" path="res://icon.svg" id="1_d4yu0"]
+
+[sub_resource type="Gradient" id="Gradient_d4yu0"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_n10im"]
+gradient = SubResource("Gradient_d4yu0")
+width = 1
+height = 1
+
+[sub_resource type="Gradient" id="Gradient_6quqj"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_5e3vm"]
+gradient = SubResource("Gradient_6quqj")
+width = 1
+height = 1
+
+[sub_resource type="Gradient" id="Gradient_8hvrr"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_jjwht"]
+gradient = SubResource("Gradient_8hvrr")
+width = 1
+height = 1
+
+[node name="HUD" type="CanvasLayer" unique_id=1580322487]
+
+[node name="Control" type="Control" parent="." unique_id=1956953416]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -100.0
+offset_right = 100.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 8
+size_flags_vertical = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control" unique_id=946091948]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 64.0
+offset_right = 200.0
+offset_bottom = 50.0
+
+[node name="Portrait" type="TextureRect" parent="Control" unique_id=985639951]
+unique_name_in_owner = true
+layout_mode = 0
+offset_top = 18.0
+offset_right = 128.0
+offset_bottom = 146.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_d4yu0")
+
+[node name="HealthBar" type="TextureProgressBar" parent="Control" unique_id=1849671171]
+unique_name_in_owner = true
+modulate = Color(0, 1, 0, 1)
+layout_mode = 0
+offset_left = 64.0
+offset_top = 50.0
+offset_right = 200.0
+offset_bottom = 60.0
+step = 0.1
+value = 100.0
+nine_patch_stretch = true
+texture_progress = SubResource("GradientTexture2D_n10im")
+
+[node name="ResourceBar" type="TextureProgressBar" parent="Control" unique_id=917934996]
+unique_name_in_owner = true
+modulate = Color(0, 0.4509804, 0.9254902, 1)
+layout_mode = 0
+offset_left = 64.0
+offset_top = 60.0
+offset_right = 200.0
+offset_bottom = 70.0
+value = 100.0
+nine_patch_stretch = true
+texture_progress = SubResource("GradientTexture2D_5e3vm")
+
+[node name="ExpBar" type="TextureProgressBar" parent="." unique_id=1303698560]
+unique_name_in_owner = true
+modulate = Color(0.5058824, 0, 1, 1)
+offset_left = 64.0
+offset_top = 70.0
+offset_right = 200.0
+offset_bottom = 80.0
+nine_patch_stretch = true
+texture_progress = SubResource("GradientTexture2D_jjwht")
