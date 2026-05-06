@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://drv7gssw1hrgu"]
+
+[ext_resource type="PackedScene" uid="uid://cb38571hfbd0c" path="res://BasePlayer.tscn" id="1_u3wng"]
+[ext_resource type="PackedScene" uid="uid://rlh5ln0v0y77" path="res://assets/player/Tactical Yordle/Animations/Idle.fbx" id="2_xrjmk"]
+
+[node name="CharacterBody2D" unique_id=1375390674 instance=ExtResource("1_u3wng")]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." index="5" unique_id=31355993]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" index="0" unique_id=1870084779]
+transparent_bg = true
+
+[node name="Node3D" type="Node3D" parent="SubViewportContainer/SubViewport" index="0" unique_id=1388269557]
+
+[node name="Idle" parent="SubViewportContainer/SubViewport/Node3D" index="0" unique_id=1460421435 instance=ExtResource("2_xrjmk")]
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport/Node3D" index="1" unique_id=302508082]

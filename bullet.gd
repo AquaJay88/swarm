@@ -13,9 +13,10 @@ func _on_visible_on_screen_notifier_2d_screen_exited():
 
 
 func _on_body_entered(body):
-	# 1. Check if the thing we hit is in the "enemy" group
 	if body.is_in_group("enemy"):
-		# 2. Delete the enemy
-		body.queue_free()
-		# 3. Delete the bullet itself
+		# 3. Call the die function we just created
+		if body.has_method("die"):
+			body.die()
+		else:
+			body.queue_free()
 		queue_free()

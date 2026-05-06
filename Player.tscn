@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bcu7vio7aoea5"]
 
 [ext_resource type="Script" uid="uid://c5unxr0q0a3pi" path="res://player.gd" id="1_kpjcp"]
-[ext_resource type="Texture2D" uid="uid://stsqqtstyhxj" path="res://icon.svg" id="1_xhfnw"]
+[ext_resource type="Texture2D" uid="uid://dkk3ftjrdiooh" path="res://assets/player/Jinx.jpeg" id="2_kpjcp"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_kpjcp"]
 
@@ -12,7 +12,9 @@ script = ExtResource("1_kpjcp")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1772642293]
 modulate = Color(1, 0.5176471, 1, 1)
-texture = ExtResource("1_xhfnw")
+texture = ExtResource("2_kpjcp")
+region_enabled = true
+region_rect = Rect2(24, 5.25, 102.5, 136)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=842860125]
 scale = Vector2(6, 6)

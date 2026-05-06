@@ -1,0 +1,68 @@
+# Battle Bunny Jinx – Swarm Mode Reference Notes
+
+## Video Source
+**YouTube:** https://www.youtube.com/watch?v=dtyQakpnY9I  
+"SWARM - JINX GAMEPLAY - BEACH (HARD)" by Monkayz | Duration: 4:52
+
+---
+
+## Reference Frames Collected (4 images)
+
+### Frame 1 – Battle Bunny Jinx Dynamic Pose (Splash Art / Thumbnail)
+**Asset:** `Ltqn6Qgb` | Source: YouTube thumbnail of the exact video  
+**What it shows:** Battle Bunny Jinx in a low-angle dynamic cinematic pose. Pink and white armor with **bunny ears** clearly visible on headband. Large shark-head rocket launcher (Fishbones alt skin). UI overlay shows her minigun (Pow-Pow/Meow Meow) icon in the bottom right.  
+**Reference value:** ★★★★☆ — Best for outfit silhouette, bunny ears, and overall character aesthetic.
+
+### Frame 2 – In-Game Swarm Gameplay (Top-Down Isometric View)
+**Asset:** `ExRec9aJ` | Source: Destructoid Swarm Jinx build guide  
+**What it shows:** Actual top-down isometric gameplay view showing Battle Bunny Jinx in action. Gatling gun projectiles visible firing. Bunny ears on head, full body top-down silhouette. HUD and UI elements visible.  
+**Reference value:** ★★★★★ — BEST top-down perspective reference showing in-game silhouette and gatling gun in use.
+
+### Frame 3 – Battle Bunny Jinx Full Body Key Art
+**Asset:** `xuNbf4iy` | Source: Destructoid / Riot Games official art  
+**What it shows:** High-quality Battle Bunny Jinx full character art. Pink tech-wear armor layers, white bunny ears headband, large shoulder pads. Holding a large shark cannon (rocket launcher). Teal/pink color scheme.  
+**Reference value:** ★★★★★ — Best for costume details: tech-wear layers, armor panels, color palette (pink, white, teal), bunny ears headband design.
+
+### Frame 4 – Battle Cat Jinx Splash Art (Anima Squad skin variant)
+**Asset:** `_YsWCnfU` | Source: ArtStation (official Riot collaboration)  
+**What it shows:** Battle Cat Jinx variant — cat-ear headband, futuristic sci-fi armor, neon color scheme. Note: this is the **cat variant** (cat ears, not bunny ears), but shares the same Anima Squad tech-wear design language with very similar armor layers and weapon silhouette.  
+**Reference value:** ★★★★☆ — Excellent for understanding the Anima Squad armor design system, tech-wear layering, and overall silhouette.
+
+---
+
+## Key Design Elements Observed
+
+### Character Silhouette (Top-Down)
+- Slim, agile body type
+- Long twin-tails pigtails visible from above
+- Compact, readable silhouette at isometric view
+- Shoulder-mounted weapons extend the character width
+
+### Weapons
+- **Gatling gun (Pow-Pow / "Meow Meow" in Swarm):** Held in front/side, multi-barrel spinning gun with chunky futuristic design
+- **Rocket launcher (Fishbones):** Large shark-head missile launcher on one shoulder
+- Weapons are oversized relative to body — key design language
+
+### Battle Bunny Costume Details
+- **Bunny ears:** White, upright rabbit ears on a pink headband
+- **Armor layers:** Pink + white tech plates over a bodysuit
+- **Teal/cyan accent color** on visor and weapon details
+- **Shoulder pads:** Large, angular tech-wear shoulder armor
+- **Boots:** Platform/tech boots with armor plating
+
+### Movement Style (Swarm Mode)
+- Top-down isometric perspective, moves in 8 directions
+- Auto-fires weapons continuously while alive
+- When idle: stands with gun lowered, pigtails visible from above
+- When moving: leans forward dynamically
+
+---
+
+## Context for Game Character Design
+The user is designing a **game character inspired by Battle Bunny Jinx** in Swarm mode. Key elements to reference:
+1. Top-down readable silhouette — wide shoulder pads + bunny ears create iconic shape
+2. Tech-wear armor layers (not just a bunny costume — it's futuristic battle gear with bunny motifs)
+3. Oversized weapons that extend beyond the character body
+4. Color palette: Pink (#FF69B4), White (#F5F5F5), Teal (#00CED1) with dark bodysuit base
+5. Twin pigtails — visible and bouncy from top-down view
+6. Chunky, game-readable details that read clearly at small screen sizes
